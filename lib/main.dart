@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'MapPe',
+      title: 'MapPet',
       theme: ThemeData(
         scaffoldBackgroundColor: Color(0xFF383D46), 
         textTheme: Theme.of(context).textTheme.apply(
@@ -45,9 +45,6 @@ class  WelcomePetlover extends StatelessWidget {
               text: TextSpan(
                 style: Theme.of(context).textTheme.headline2,
                 children: [
-                  TextSpan(
-                    text: "",
-                  ),
                   TextSpan(
                     text: "",
                     style: TextStyle(fontWeight: FontWeight.bold),
