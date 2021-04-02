@@ -1,4 +1,5 @@
 import 'package:MapPet/consttants.dart';
+import 'package:MapPet/task2.dart';
 import 'package:flutter/material.dart';
 // ignore: unused_import
 import 'package:MapPet/widgets/rounded_button.dart';
@@ -58,15 +59,8 @@ class  WelcomePetlover extends StatelessWidget {
                 text: "Let's Journey",
                 fontSize: 20,
                 press: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return  WelcomePetlover();
-                      },
-                    ),
-                  );
-                },
+                  Navigator.push(context,MaterialPageRoute( builder: (context) { return  Task2(); }, ),
+                  ); },
               ),
             ),
           ],
@@ -75,3 +69,4 @@ class  WelcomePetlover extends StatelessWidget {
     );
   }
 }
+
