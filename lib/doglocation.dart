@@ -1,4 +1,6 @@
+import 'package:MapPet/task2.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class DoglocationType extends StatelessWidget {
    static final String title = 'Choose Dog Province';
@@ -31,53 +33,27 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
+           leading: IconButton(
+            icon: Icon(FontAwesomeIcons.arrowLeft),
+            onPressed: () {
+              Navigator.push(context,MaterialPageRoute( builder: (context) { return Task2(); }, ),);
+            }),
           title: Text(widget.title),
         ),
         body: ListView(
           padding: EdgeInsets.all(16),
           children: [
             
-            buildImageCardcat(),
-            buildImageCarddog(),
-            buildImageCardexotic(),
+            
+            buildImageCardBkkDog(),
+            buildImageCardOutDog(),
 
             
           ],
         ),
       );
 
-Widget buildImageCardcat() => 
-        Card(
-        clipBehavior: Clip.antiAlias,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(24),
-        ),
-        child: Stack(
-          alignment: Alignment.center,
-          children: [
-            Ink.image(
-              image: AssetImage("assets/images/nearmeimg.jpg"),
-
-             // colorFilter: ColorFilters.greyscale,
-              child: InkWell(
-                onTap: () {},
-              ),
-              height: 240,
-              fit: BoxFit.cover,
-            ),
-            Text(
-              'Near me',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.grey,
-                fontSize: 24,
-              ),
-            ),
-          ],
-        ),
-      );
-
-Widget buildImageCarddog() => 
+Widget buildImageCardBkkDog() => 
         Card(
         clipBehavior: Clip.antiAlias,
         shape: RoundedRectangleBorder(
@@ -93,7 +69,7 @@ Widget buildImageCarddog() =>
               child: InkWell(
                 onTap: () {},
               ),
-              height: 240,
+              height: 330,
               fit: BoxFit.cover,
             ),
             Text(
@@ -108,7 +84,7 @@ Widget buildImageCarddog() =>
         ),
       );
 
-Widget buildImageCardexotic() => 
+Widget buildImageCardOutDog() => 
         Card(
         clipBehavior: Clip.antiAlias,
         shape: RoundedRectangleBorder(
@@ -124,7 +100,7 @@ Widget buildImageCardexotic() =>
               child: InkWell(
                 onTap: () {},
               ),
-              height: 240,
+              height: 330,
               fit: BoxFit.cover,
             ),
             Text(
