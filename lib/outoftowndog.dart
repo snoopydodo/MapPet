@@ -88,8 +88,43 @@ class HomePageState extends State<OutOfDog> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: _boxes(
-                  "https://www.halalroute.in.th/wp-content/uploads/2016/10/IMG_1123.jpg",
-                  13.7844286,100.3936433,"Cat In Cafe"),
+                  "https://www.osdco.net/upload/gun/bok-bok-cafe_%E0%B9%91%E0%B9%97%E0%B9%91%E0%B9%92%E0%B9%91%E0%B9%98_0062.jpg",
+                  18.7985274,98.9660082,"Box Box Dog Cafe"),
+            ),
+            SizedBox(width: 10.0),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: _boxes(
+                  "https://img.wongnai.com/p/1920x0/2020/03/04/ea9d5e2a57eb4100a6d21668a22480b6.jpg",
+                  14.4764074,100.1286113,"Cafe De Shi"),
+            ),
+            SizedBox(width: 10.0),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: _boxes(
+                  "https://mpics.mgronline.com/pics/Images/562000005385201.JPEG",
+                  13.8199986,100.4471535,"Happy Pom Dog Cafe"),
+            ),
+            SizedBox(width: 10.0),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: _boxes(
+                  "https://huahin.town/wp-content/uploads/2018/06/3-3-1020x593.jpg",
+                  12.578649,99.9534283,"Inu Cafe"),
+            ),
+            SizedBox(width: 10.0),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: _boxes(
+                  "https://img.wongnai.com/p/1920x0/2018/04/06/f4ffa502069a4e6ba036ce115ef117bf.jpg",
+                  16.4019505,102.7884219,"Husky cafe - Khon Kaen"),
+            ),
+            SizedBox(width: 10.0),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: _boxes(
+                  "https://www.paiduaykan.com/travel/wp-content/uploads/2017/06/2-IMG_2139-800x533.jpg",
+                  17.1393808,104.1445821,"Sonata's Siberian Cafe"),
             ),
             
           ],
@@ -242,7 +277,7 @@ class HomePageState extends State<OutOfDog> {
           _controller.complete(controller);
         },
         markers: {
-          //catInMarker
+          boxboxDogMarker,deShiMarker,pomDogMarker,huskeyKhonKaenMarker,sonataSiberianMarker
         },
       ),
     );
@@ -255,10 +290,55 @@ class HomePageState extends State<OutOfDog> {
   }
 }
 
-Marker catInMarker = Marker(
-  markerId: MarkerId('Cat In Cafe'),
-  position: LatLng(13.7844286,100.3936433),
-  infoWindow: InfoWindow(title: 'Cat In Cafe'),
+Marker boxboxDogMarker = Marker(
+  markerId: MarkerId('Box Box Dog Cafe'),
+  position: LatLng(18.7985274,98.9660082),
+  infoWindow: InfoWindow(title: 'Box Box Dog Cafe'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
+
+Marker deShiMarker = Marker(
+  markerId: MarkerId('Cafe De Shi'),
+  position: LatLng(14.4764074,100.1286113),
+  infoWindow: InfoWindow(title: 'Cafe De Shi'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
+
+Marker pomDogMarker = Marker(
+  markerId: MarkerId('Happy Pom Dog Cafe'),
+  position: LatLng(13.8199986,100.4471535),
+  infoWindow: InfoWindow(title: 'Happy Pom Dog Cafe'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
+
+Marker iNuMarker = Marker(
+  markerId: MarkerId('Inu Cafe'),
+  position: LatLng(12.578649,99.9534283),
+  infoWindow: InfoWindow(title: 'Inu Cafe'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
+
+Marker huskeyKhonKaenMarker = Marker(
+  markerId: MarkerId('Husky cafe - Khon Kaen'),
+  position: LatLng(16.4019505,102.7884219),
+  infoWindow: InfoWindow(title: 'Husky cafe - Khon Kaen'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
+
+Marker sonataSiberianMarker = Marker(
+  markerId: MarkerId('Sonatas Siberian Cafe'),
+  position: LatLng(17.1393808,104.1445821),
+  infoWindow: InfoWindow(title: 'Sonatas Siberian Cafe'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
     BitmapDescriptor.hueViolet,
   ),
