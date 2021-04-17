@@ -1,0 +1,177 @@
+cat
+
+bkk 
+
+Caturday cat cafe
+13.7514502,100.5299679
+https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/63/2016/11/10025010/destination-cat-cafe.jpg
+/// 
+
+Mohu Mohu Cafe
+13.72826,100.5221799
+https://thestandard.co/wp-content/uploads/2020/06/POP-Restaurant-_-Bar_Mohu-Mohu-Cafe%CC%81-%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%9F%E0%B9%88%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%81%E0%B8%AA%E0%B8%99%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%AD%E0%B8%9A%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B8%88%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94_COVER.jpg
+ mohuMarker,fatCatMarker,yearOfMarker,hocBeverageMarker,catNipMarker,catsanovaMarker,fairyDoorMarker,catsterMarker,chicoMarker
+
+Fat Cat Cafe Club
+13.813332,100.5192553
+https://lh3.googleusercontent.com/p/AF1QipOH2RX0YpUyjLa1bI7WMptYyafOKJhwNZASgoIB=w600-k
+
+Year of The Cat Cafe
+13.7436192,100.4672311
+https://www.chillpainai.com/src/wewakeup/img_chillpainai/1375/1449220669-02.jpg
+
+HOC Beverage Bar & Cat Cafe
+13.7893217,100.5852186
+https://www.ananda.co.th/blog/thegenc/wp-content/uploads/2018/09/Hoc-Beverage_04.jpg
+
+CatNip Cafe
+13.7146329,100.5283604
+https://asian-traveller.com/jp/wp-content/uploads/2019/10/catnip-2-1024x768.jpg
+
+Catsanova - Adoptable Cat Cafe
+13.7008189,100.5283803
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiU7HS330Bn6_ez3WBbtugypQVlPJoHUb_8Q&usqp=CAU
+
+The Fairy Door
+13.727732,100.5718525
+https://cdn.eatigo.com/restaurant-image/5006585_754b009e-4dc7-4b55-a583-47843df25949.jpg
+
+Catster by Kingdomoftigers
+13.6534414,100.5181079
+https://www.tinitinai.com/wp-content/uploads/2019/10/catster-by-kingdom-of-tigers-7.jpg
+
+Chico Design Bangkok
+13.7328211,100.576878
+http://4.bp.blogspot.com/-xwGjZtGka5Q/UX0Dc-B_cBI/AAAAAAAAA7k/PA5ok2zqFAk/s320/IMG_3590.jpg
+
+Out off town
+Cat In Cafe
+13.7844286,100.3936433
+https://www.halalroute.in.th/wp-content/uploads/2016/10/IMG_1123.jpg
+
+Grandpa's Cafe
+13.96571,100.5948453
+https://cms.dmpcdn.com/travel/2019/12/26/b49ba670-27a8-11ea-aa0a-5b4e273aa1a3_original.jpg
+
+Play with cat Cafe
+13.8765029,100.2657677
+https://lh3.googleusercontent.com/proxy/Agored3cgDHN--ciwB3rMKCdUVwO4X5gtNhpZMWH218fmE87iinJH3px730rPmoUP1WPi2zWClfWk1s_9MY2acRg9uUpRknByV_6Izv0SwRF9DX93jwBmmpA-g
+
+
+catInMarker,grandpaMarker,playWithMarker,lazyCatsMarker,catfeineHMarker,catmosphereCafeMarker,catNaCupMarker
+
+
+Lazy cats cafe’ kan
+14.0142005,99.5328444
+https://lh3.googleusercontent.com/-U9e4xJWmaB4/XMVSylkT6PI/AAAAAAAATZ4/3wIw2TStLuo-C-Mx4Kl9htGMXH9qhoSPQCLIBGAYYCw/w1080-h608-p-k-no-v0/
+
+Catfeine House & Cafe
+13.1596091,100.9207598
+https://s3-ap-southeast-1.amazonaws.com/photo.wongnai.com/photos/2016/10/11/6022916e93604568839bc68101078f0f.jpg
+
+Catmosphere Cafe Chiang Mai
+18.8063742,98.9558218
+https://breathingtravel.com/wp-content/uploads/2014/12/Catmosphere.jpg
+
+CAT 'n' A CUP Cat Cafe'
+19.904485,99.8309982
+https://media-cdn.tripadvisor.com/media/photo-s/0e/89/b4/20/caption.jpg
+
+Dog 
+BKK
+
+axoticDogMarker,littleDogMarker,dogCountryMarker,bigDogMarker,corgiGardenMarker,dogTownEkkMarker
+
+Axotic Cafe
+13.823728,100.6069359
+https://img.wongnai.com/p/1920x0/2021/02/20/353d54c1a20043b8bafebb408e8d4e78.jpg
+
+little dog club
+13.7954901,100.5900663
+https://i2.wp.com/arch.punpromotion.com/wp-content/uploads/2018/05/IMG_1498-1.jpg
+
+Dog Country Cafe
+13.778636,100.3893693
+https://asian-traveller.com/en/wp-content/uploads/2019/10/dogcountry-15.jpg
+
+Big Dog cafe
+13.7673615,100.5695155
+https://static.thairath.co.th/media/B6FtNKtgSqRqbnNsUt2dvrcopSvtD7RyTmp4tQMecxyVQehADpFZvgVDDiCR5TDZaR3g6.jpg
+
+Corgi in the Garden
+13.7075433,100.4473275
+https://cms.dmpcdn.com/travel/2019/02/07/fd5213d8-0019-4ab6-b856-eaabb9360174.jpg
+
+Dog In Town Ekkamai
+13.6838676,100.3048915
+https://mpics.mgronline.com/pics/Images/560000013488802.JPEG
+
+
+
+Out of Town
+
+boxboxDogMarker,deShiMarker,pomDogMarker,huskeyKhonKaenMarker,sonataSiberianMarker
+
+Box Box Dog Cafe
+18.7985274,98.9660082
+https://www.osdco.net/upload/gun/bok-bok-cafe_%E0%B9%91%E0%B9%97%E0%B9%91%E0%B9%92%E0%B9%91%E0%B9%98_0062.jpg
+
+Cafe De Shi
+14.4764074,100.1286113
+https://img.wongnai.com/p/1920x0/2020/03/04/ea9d5e2a57eb4100a6d21668a22480b6.jpg
+
+Happy Pom Dog Cafe
+13.8199986,100.4471535
+https://mpics.mgronline.com/pics/Images/562000005385201.JPEG
+
+Inu Cafe
+12.578649,99.9534283
+https://huahin.town/wp-content/uploads/2018/06/3-3-1020x593.jpg
+
+Husky cafe - Khon Kaen
+16.4019505,102.7884219
+https://img.wongnai.com/p/1920x0/2018/04/06/f4ffa502069a4e6ba036ce115ef117bf.jpg
+
+Sonata's Siberian Cafe
+17.1393808,104.1445821
+https://www.paiduaykan.com/travel/wp-content/uploads/2017/06/2-IMG_2139-800x533.jpg
+
+
+Exotic
+BKK
+
+animalExoticMarker,petPublicMarker,suvimolTeaMarker,bunnySweetMarker,rabitoExoticMarker
+
+The Animal Cafe
+13.6998991,100.5319989
+https://www.misstamchiak.com/wp-content/uploads/2018/03/animal-cafe-featured--1300x929.jpg
+
+Pet Public Cafe
+13.7746503,100.6648727
+https://www.ryoiireview.com/upload/article/201705/1496048643_a5aeda6d320d66642f1bae7f53a0091c.jpg
+
+S'uvimol Tea House
+13.7204748,100.5480171
+https://images.squarespace-cdn.com/content/v1/5f1a5f45ca5a6f1c30bd3aac/1596293700724-4L05T4SI1U3IBQ0MRS9R/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/IMG_4005.jpeg
+
+Bunny Sweet Home Cafe
+13.7589558,100.6749244
+https://img.wongnai.com/p/1920x0/2018/04/07/261f7dd6b15847bfac484e8291315b64.jpg
+
+Rabito Cafe
+13.6846412,100.6101744
+https://media-cdn.tripadvisor.com/media/photo-s/0d/62/77/bc/caption.jpg
+
+Little Zoo Cafe
+13.7278164,100.5351865
+https://ed.edtfiles-media.com/static-cache/resize-cache/790x528/ud/images/1/147/440324/IMG_5991-20160107.jpg
+
+
+Out of town
+
+jamieExoticMarker
+
+Jamie café
+13.9052681,100.4165457
+https://lh3.googleusercontent.com/proxy/QBaz1E5dcnq4drfMMSYzmL1Dwb0olU7hMW6QOKl3ec3AW80reBV6aozEpw348XKY8wq9b9cjFlXcvA-6PFNSi3CjrbnuVzVChMJLkS1PCYx0NAfIyL2G2I3Sk7S365_5lgVT2BQamTTF6-A4a2rZBuGx9vsXOFlFUg09uPxT_t3SJe6evy4w
+
