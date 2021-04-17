@@ -88,8 +88,8 @@ class HomePageState extends State<OutOfExotic> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: _boxes(
-                  "https://www.halalroute.in.th/wp-content/uploads/2016/10/IMG_1123.jpg",
-                  13.7844286,100.3936433,"Cat In Cafe"),
+                  "https://lh3.googleusercontent.com/proxy/QBaz1E5dcnq4drfMMSYzmL1Dwb0olU7hMW6QOKl3ec3AW80reBV6aozEpw348XKY8wq9b9cjFlXcvA-6PFNSi3CjrbnuVzVChMJLkS1PCYx0NAfIyL2G2I3Sk7S365_5lgVT2BQamTTF6-A4a2rZBuGx9vsXOFlFUg09uPxT_t3SJe6evy4w",
+                  13.9052681,100.4165457,"Jamie café"),
             ),
             
           ],
@@ -242,7 +242,7 @@ class HomePageState extends State<OutOfExotic> {
           _controller.complete(controller);
         },
         markers: {
-          //catInMarker
+          jamieExoticMarker
         },
       ),
     );
@@ -255,10 +255,10 @@ class HomePageState extends State<OutOfExotic> {
   }
 }
 
-Marker catInMarker = Marker(
-  markerId: MarkerId('Cat In Cafe'),
-  position: LatLng(13.7844286,100.3936433),
-  infoWindow: InfoWindow(title: 'Cat In Cafe'),
+Marker jamieExoticMarker = Marker(
+  markerId: MarkerId('Jamie café'),
+  position: LatLng(13.9052681,100.4165457),
+  infoWindow: InfoWindow(title: 'Jamie café'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
     BitmapDescriptor.hueViolet,
   ),
