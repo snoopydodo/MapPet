@@ -88,8 +88,43 @@ class HomePageState extends State<BkkDog> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: _boxes(
-                  "https://www.halalroute.in.th/wp-content/uploads/2016/10/IMG_1123.jpg",
-                  13.7844286,100.3936433,"Cat In Cafe"),
+                  "https://img.wongnai.com/p/1920x0/2021/02/20/353d54c1a20043b8bafebb408e8d4e78.jpg",
+                  13.823728,100.6069359,"Axotic Cafe"),
+            ),
+            SizedBox(width: 10.0),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: _boxes(
+                  "https://i2.wp.com/arch.punpromotion.com/wp-content/uploads/2018/05/IMG_1498-1.jpg",
+                  13.7954901,100.5900663,"little dog club"),
+            ),
+            SizedBox(width: 10.0),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: _boxes(
+                  "https://asian-traveller.com/en/wp-content/uploads/2019/10/dogcountry-15.jpg",
+                  13.778636,100.3893693,"Dog Country Cafe"),
+            ),
+            SizedBox(width: 10.0),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: _boxes(
+                  "https://static.thairath.co.th/media/B6FtNKtgSqRqbnNsUt2dvrcopSvtD7RyTmp4tQMecxyVQehADpFZvgVDDiCR5TDZaR3g6.jpg",
+                  13.7673615,100.5695155,"Big Dog cafe"),
+            ),
+            SizedBox(width: 10.0),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: _boxes(
+                  "https://cms.dmpcdn.com/travel/2019/02/07/fd5213d8-0019-4ab6-b856-eaabb9360174.jpg",
+                  13.7075433,100.4473275,"Corgi in the Garden"),
+            ),
+            SizedBox(width: 10.0),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: _boxes(
+                  "https://mpics.mgronline.com/pics/Images/560000013488802.JPEG",
+                  13.6838676,100.3048915,"Dog In Town Ekkamai"),
             ),
             
           ],
@@ -242,7 +277,7 @@ class HomePageState extends State<BkkDog> {
           _controller.complete(controller);
         },
         markers: {
-          //catInMarker
+          axoticDogMarker,littleDogMarker,dogCountryMarker,bigDogMarker,corgiGardenMarker,dogTownEkkMarker
         },
       ),
     );
@@ -255,12 +290,56 @@ class HomePageState extends State<BkkDog> {
   }
 }
 
-Marker catInMarker = Marker(
-  markerId: MarkerId('Cat In Cafe'),
-  position: LatLng(13.7844286,100.3936433),
-  infoWindow: InfoWindow(title: 'Cat In Cafe'),
+Marker axoticDogMarker = Marker(
+  markerId: MarkerId('Axotic Cafe'),
+  position: LatLng(13.823728,100.6069359),
+  infoWindow: InfoWindow(title: 'Axotic Cafe'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
     BitmapDescriptor.hueViolet,
   ),
 );
 
+Marker littleDogMarker = Marker(
+  markerId: MarkerId('Little dog club'),
+  position: LatLng(13.7954901,100.5900663),
+  infoWindow: InfoWindow(title: 'Little dog club'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
+
+Marker dogCountryMarker = Marker(
+  markerId: MarkerId('Dog Country Cafe'),
+  position: LatLng(13.778636,100.3893693),
+  infoWindow: InfoWindow(title: 'Dog Country Cafe'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
+
+Marker bigDogMarker = Marker(
+  markerId: MarkerId('Big Dog cafe'),
+  position: LatLng(13.7673615,100.5695155),
+  infoWindow: InfoWindow(title: 'Big Dog cafe'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
+
+Marker corgiGardenMarker = Marker(
+  markerId: MarkerId('Corgi in the Garden'),
+  position: LatLng(13.7075433,100.4473275),
+  infoWindow: InfoWindow(title: 'Corgi in the Garden'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
+
+Marker dogTownEkkMarker = Marker(
+  markerId: MarkerId('Dog In Town Ekkamai'),
+  position: LatLng(13.6838676,100.3048915),
+  infoWindow: InfoWindow(title: 'Dog In Town Ekkamai'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
