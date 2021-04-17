@@ -1,3 +1,5 @@
+import 'package:MapPet/bkkexotic.dart';
+import 'package:MapPet/outoftownexotic.dart';
 import 'package:MapPet/task2.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -67,7 +69,9 @@ Widget buildImageCardBkkExotic() =>
 
              // colorFilter: ColorFilters.greyscale,
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(context,MaterialPageRoute( builder: (context) { return BkkExotic(); }, ),);
+                },
               ),
               height: 330,
               fit: BoxFit.cover,
@@ -98,7 +102,9 @@ Widget buildImageCardOutExotic() =>
 
              // colorFilter: ColorFilters.greyscale,
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(context,MaterialPageRoute( builder: (context) { return OutOfExotic(); }, ),);
+                },
               ),
               height: 330,
               fit: BoxFit.cover,
