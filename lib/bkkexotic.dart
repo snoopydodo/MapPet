@@ -277,7 +277,7 @@ class HomePageState extends State<BkkExotic> {
           _controller.complete(controller);
         },
         markers: {
-          //catInMarker
+          animalExoticMarker,petPublicMarker,suvimolTeaMarker,bunnySweetMarker,rabitoExoticMarker
         },
       ),
     );
