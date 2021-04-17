@@ -2,6 +2,8 @@ import 'package:MapPet/task2.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+import 'bkkdog.dart';
+
 class DoglocationType extends StatelessWidget {
    static final String title = 'Choose Dog Province';
 
@@ -67,7 +69,9 @@ Widget buildImageCardBkkDog() =>
 
              // colorFilter: ColorFilters.greyscale,
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(context,MaterialPageRoute( builder: (context) { return BkkDog(); }, ),);
+                },
               ),
               height: 330,
               fit: BoxFit.cover,
