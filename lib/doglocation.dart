@@ -1,3 +1,4 @@
+import 'package:MapPet/outoftowndog.dart';
 import 'package:MapPet/task2.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -102,7 +103,9 @@ Widget buildImageCardOutDog() =>
 
              // colorFilter: ColorFilters.greyscale,
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(context,MaterialPageRoute( builder: (context) { return OutOfDog(); }, ),);
+                },
               ),
               height: 330,
               fit: BoxFit.cover,
